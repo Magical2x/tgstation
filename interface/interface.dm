@@ -22,8 +22,8 @@
 	DIRECT_OUTPUT(src, link(output))
 
 /client/verb/forum()
-	set name = "forum"
-	set desc = "Visit the forum."
+	set name = "Discord"
+	set desc = "Join our Discord server."
 	set hidden = TRUE
 
 	var/forumurl = CONFIG_GET(string/forumurl)
